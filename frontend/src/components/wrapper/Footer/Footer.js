@@ -18,11 +18,6 @@ class Footer extends React.Component {
                     </a>
                   </li>
                   <li>
-                    <a id="footer-terms-and-conditions" target="_blank">
-                      Terms and Conditions
-                    </a>
-                  </li>
-                  <li>
                     <Link to="/">Footer link</Link>
                   </li>
                 </ul>

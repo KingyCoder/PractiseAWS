@@ -63,9 +63,10 @@ class Header extends React.Component {
                 className={this.props.display ? "show-mobile-menu-links" : ""}
               >
                 <li>
-                  <Link onClick={() => {}} to="/">
-                    Link1
-                  </Link>
+                  <Link to="/">Link1</Link>
+                </li>
+                <li>
+                  <Link to="/Home">Link2</Link>
                 </li>
               </ul>
             </nav>

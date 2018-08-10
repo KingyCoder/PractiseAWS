@@ -6,17 +6,12 @@ import { routerReducer } from "react-router-redux"
 /******************************************************************************************************/
 // Import Reducers
 /******************************************************************************************************/
-// import services from "./servicesReducer";
-// import userData from "./userDataReducer";
-// import { Reducers } from "platform-common-frontend";
+import homepage from "./HomePageReducer"
 /******************************************************************************************************/
 // Combine Reducers
 /******************************************************************************************************/
 const appReducers = combineReducers({
-  //   services,
-  //   userData,
-  //   platformNotifications: Reducers.PlatformNotificationsReducer,
-  routerReducer
+  homepage
 })
 
 export default appReducers

@@ -2,6 +2,7 @@ import React from "react"
 import { Route, Switch } from "react-router-dom"
 
 import HomePageContainer from "../containers/HomePageContainer"
+import Page2Container from "../containers/Page2Container"
 
 import appInfo from "../../package.json"
 // import serviceInfo from "../../service-config.json"
@@ -13,9 +14,9 @@ export default class App extends React.Component {
       <AppWrapper>
         <main id="content" role="main">
           <Switch>
-            <Route exact path="/" name="Home" component={HomePageContainer} />
-            <Route exact="/home" component={HomePageContainer} />
-            <Route exact="/about" component={HomePageContainer} />
+            <Route exact path="/" component={HomePageContainer} />
+            <Route path="/home" component={Page2Container} />
+            <Route path="/about" component={HomePageContainer} />
           </Switch>
         </main>
       </AppWrapper>
